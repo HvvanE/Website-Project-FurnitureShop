@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+  /* ########## Header ########## */
+  /* header {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  .gnb {
+    width: 100%;
+  } */
+  /* ########## Section : Welcome ########## */
+  .slide-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* ########## Section : Best ########## */
+  .product-content {
+    height: auto;
+    padding: 20px 0;
+  }
+  .product-header {
+    margin: 0;
+    padding: 0;
+  }
+  .product-header h2 {
+    line-height: 1.2em;
+  }
+  .product-content:before {
+    display: none;
+  }
+  .product-content:after {
+    display: none;
+  }
+  .content-items {
+    flex-direction: column;
+  }
+  
+  /* ########## Section : Video ########## */
+  .video-frame iframe {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* ########## Section : Other ########## */
+  .other-items {
+    width: 100%;
+  }
+  
+  /* ########## Section : Designer ########## */
+
+  /* ########## Section : Review ########## */
+  .review {
+    font-size: 12px;
+  }
+  .review-content {
+    width: 100%;
+  }
+  .review-tabs > div {
+    height: auto;
+  }
+  .tab2 a p {
+    font-size: 12px;
+  }
+  
+  /* ########## Footer ########## */
+  .footer-inner {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+}
